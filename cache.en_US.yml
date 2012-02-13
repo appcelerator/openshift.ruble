@@ -4,9 +4,9 @@ children:
 - !!com.aptana.scripting.model.MenuElement
   children:
   - children: &id002 []
-    commandName: Delete Remote App
+    commandName: Delete Remote App...
     customProperties: null
-    displayName: Delete Remote App
+    displayName: Delete Remote App...
     path: bundle.rb
     scope: null
   commandName: OpenShift
@@ -17,7 +17,7 @@ children:
 - !!com.aptana.scripting.model.CommandElement
   async: false
   customProperties: null
-  displayName: Delete Remote App
+  displayName: Delete Remote App...
   input: []
   inputPath: null
   keyBindingMap: null

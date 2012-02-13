@@ -3,23 +3,10 @@ author: Appcelerator, Inc.
 children:
 - !!com.aptana.scripting.model.MenuElement
   children:
-  - children: &id001 []
-    commandName: Delete Remote App
+  - children: &id002 []
+    commandName: Delete Remote App...
     customProperties: null
-    displayName: Delete Remote App
-    path: bundle.rb
-    scope: null
-  commandName: OpenShift
-  customProperties: null
-  displayName: OpenShift
-  path: bundle.rb
-  scope: null
-- !!com.aptana.scripting.model.MenuElement
-  children:
-  - children: *id001
-    commandName: Delete Remote App
-    customProperties: null
-    displayName: Delete Remote App
+    displayName: Delete Remote App...
     path: bundle.rb
     scope: null
   commandName: OpenShift
@@ -30,7 +17,7 @@ children:
 - !!com.aptana.scripting.model.CommandElement
   async: false
   customProperties: null
-  displayName: Delete Remote App
+  displayName: Delete Remote App...
   input: []
   inputPath: null
   keyBindingMap: null
@@ -42,14 +29,14 @@ children:
   workingDirectoryType: UNDEFINED
 copyright: Copyright 2012 Appcelerator. Distributed under the MIT license.
 customProperties: null
-decreaseIndentMarkers: &id002 {}
+decreaseIndentMarkers: &id001 {}
 description: Support for OpenShift integration
 displayName: OpenShift
-fileTypeRegistry: *id002
-fileTypes: *id001
-foldingStartMarkers: *id002
-foldingStopMarkers: *id002
-increaseIndentMarkers: *id002
+fileTypeRegistry: *id001
+fileTypes: *id002
+foldingStartMarkers: *id001
+foldingStopMarkers: *id001
+increaseIndentMarkers: *id001
 license: null
 licenseUrl: null
 path: bundle.rb

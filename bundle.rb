@@ -8,6 +8,6 @@ bundle 'OpenShift' do |bundle|
   bundle.repository = "git@github.com:appcelerator/openshift.ruble.git"
 
   bundle.menu 'OpenShift' do |menu|
-    menu.command "Delete Remote App"
+    menu.command "Delete Remote App..."
   end
 end
