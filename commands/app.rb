@@ -1,5 +1,5 @@
 
-command 'Delete Remote App' do |cmd|
+command 'Delete Remote App...' do |cmd|
   cmd.output = :discard
   cmd.invoke do |context|
       res = Ruble::UI.request_string(:title => 'Delete Remote App', :prompt => 'Please enter the application name:')
